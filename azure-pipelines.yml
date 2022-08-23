@@ -12,8 +12,8 @@ pool:
 variables:
   webAppName: 'hcomoaf'
   serviceConnection: 'hcomoafwesteurope-rg'
-  azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: 'hcomoaf'
+  azureSubscriptionId: 'd2b96e08-6110-47f7-bc0b-3475ac334617'
+  loadTestResource: 'hcomoafdb'
   loadTestResourceGroup: 'hcomoafwesteurope-rg'
   location: 'westeurope'
 
