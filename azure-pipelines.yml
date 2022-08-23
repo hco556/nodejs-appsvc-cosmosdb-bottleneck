@@ -10,12 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  webAppName: '<Name of your webapp>'
-  serviceConnection: '<Name of your webARM Service connection>'
+  webAppName: 'hcomoaf'
+  serviceConnection: 'hcomoafwesteurope-rg'
   azureSubscriptionId: '<Azure subscriptionId>'
-  loadTestResource: '<Name of your load test resource>'
-  loadTestResourceGroup: '<Name of your load test resource group>'
-  location: 'EAST US'
+  loadTestResource: 'hcomoaf'
+  loadTestResourceGroup: 'hcomoafwesteurope-rg'
+  location: 'westeurope'
 
 
 stages:
